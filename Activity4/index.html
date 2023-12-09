@@ -8,7 +8,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        table,tr,th,td{
+          border-width: 1px;
+          border-color: black;
+          border-style: solid;
+        }
+  </style>
 </head>
+
 <body style="height:2000px">
     <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
         <div class="container">
@@ -56,19 +64,20 @@
         </div>
     </nav>
     <br><br>
-    <h1>Tutorial 1-5</h1>
+    <h1>Tutorial 6-10</h1>
     <section>
+
         <body class="p-3 m-0 border-0 bd-example m-0 border-0">
             <div class="accordion" id="accordionExample">
 
                 <div class="accordion-item">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                            HTML Tutorial#1:Overview & Structure
+                            data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            HTML Tutorial#6:List
                         </button>
                     </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <table class="table table-striped table-hover">
                             <tr>
                                 <th>Video</th>
@@ -77,20 +86,21 @@
                             </tr>
                             <tr>
                                 <td><iframe width="560" height="315"
-                                        src="https://www.youtube.com/embed/29l2qxSJSIw?si=9lnX8rqsQIWfD5R3"
+                                        src="https://www.youtube.com/embed/x5mYQJTqOWk?si=4C9yvjlbEWFOAqcs"
                                         title="YouTube video player" frameborder="0"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                         allowfullscreen></iframe></td>
                                 <td>
-                                    <p>Hello World</p>
+                                    <ul>
+                                        <li>Banana</li>
+                                        <li>Watermelon</li>
+                                        <li>Orange</li>
+                                    </ul>
                                 </td>
                                 <td>
                                     <p>Princess</p>
-                                    <p>Understanding HTML's overview and structure is fundamental for creating
-                                        well-organized and functional web pages. It's a language that serves as the
-                                        backbone of the web and works in conjunction with other technologies like
-                                        CSS (Cascading Style Sheets) and JavaScript to create interactive and
-                                        visually appealing websites.
+                                    <p>Understanding and utilizing lists effectively can significantly improve the
+                                        structure and readability of your HTML content.
                                     </p>
                                 </td>
                             </tr>
@@ -100,11 +110,11 @@
                 <div class="accordion-item">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            HTML Tutorial #2: Text Elements & Formatting
+                            data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                            HTML Tutorial #7: Tables
                         </button>
                     </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
                             <table class="table table-striped table-hover">
                                 <tr>
@@ -113,39 +123,32 @@
                                     <th>Comment</th>
                                 </tr>
                                 <tr>
+
                                     <td>
                                         <iframe width="560" height="315"
-                                            src="https://www.youtube.com/embed/pU8B8dEMeTo?si=wyFWkdX23qYd58xs"
+                                            src="https://www.youtube.com/embed/lafECAi4F5k?si=XWmg86Mu39xlGaAb"
                                             title="YouTube video player" frameborder="0"
                                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                             allowfullscreen></iframe>
                                     </td>
                                     <td>
-                                        <h1>Heading 1</h1>
-                                        <p>Hello world!</p>
-                                        <h2>Heading 2</h2>
-                                        <h3>Heading 3</h3>
-                                        <h4>Heading 4</h4>
-                                        <h5>Heading 5</h5>
-                                        <h6>Heading 6</h6>
-                                        <br>
-                                        <b>Bold</b> <br>
-                                        <strong>Strong</strong> <br>
-                                        <i>Italic</i> <br>
-                                        <em>Emphasixed</em> <br>
-                                        <mark>Marked</mark> <br>
-                                        <small>Smaller</small> <br>
-                                        <del>Delated</del> <br>
-                                        <ins>Inserted</ins> <br>
-                                        <sub>Subscript</sub> <br>
-                                        <sup>Superscript</sup> <br>
-                                    </td>
+                                            
+                                        <table>
+                                            <tr>
+                                                <th>Title 1</th>
+                                                <th>Title 2</th>
+                                            </tr>
+                                            <tr>
+                                                <td>Content 1</td>
+                                                <td>Content 2</td>
+                                            </tr>
+                                        </table>
+                                    </td>   
                                     <td>
-                                        <p>Understanding these concepts helps in effectively structuring and styling
-                                            text
-                                            content within HTML documents, providing a clear and visually appealing
-                                            presentation on web pages </p>
                                         <p>Princess</p>
+                                        <p>essential to consider responsive design and accessibility principles when
+                                            using them on a webpage. </p>
+                                        
                                     </td>
                                 </tr>
                             </table>
@@ -155,11 +158,11 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                HTML Tutorial #3: Attributes & Linking HTML Files
+                                data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                HTML Tutorial #8: Forms (Input, Select & Text Area)
                             </button>
                         </h2>
-                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 <table class="table table-striped table-hover">
                                     <tr>
@@ -170,14 +173,10 @@
                                     <tr>
                                         <td>
                                             <iframe width="560" height="315"
-                                                src="https://www.youtube.com/embed/EP8JQhiQb4Q?si=D05OuuJtsBpuI7Bu"
+                                                src="https://www.youtube.com/embed/VmiMcxLVVto?si=jfmUlrNZ8GZqdKR4"
                                                 title="YouTube video player" frameborder="0"
                                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                                 allowfullscreen></iframe>
-                                        </td>
-                                        <td>
-                                            <a href="profile.html">Profile</a>
-
                                         </td>
                                         <td>
                                             <p>Understanding attributes and how to use them to link HTML files is
@@ -195,11 +194,11 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                    HTML Tutorial #4: Images & File Paths
+                                    data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                    HTML Tutorial #9: Special Characters (UTF-8)
                                 </button>
                             </h2>
-                            <div id="collapseFour" class="accordion-collapse collapse"
+                            <div id="collapseNine" class="accordion-collapse collapse"
                                 data-bs-parent="#accordionExample">
 
                                 <table class="table table-striped table-hover">
@@ -209,18 +208,18 @@
                                         <th>Comment</th>
                                     </tr>
                                     <tr>
-                                        <td><iframe width="560" height="315"
-                                                src="https://www.youtube.com/embed/EP8JQhiQb4Q?si=XZKs80MrLx0jSw5j"
+                                        <td>
+                                            <iframe width="560" height="315"
+                                                src="https://www.youtube.com/embed/t4LTm5x1Gbw?si=EqPJ3YxOuzdX553H"
                                                 title="YouTube video player" frameborder="0"
                                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                allowfullscreen></iframe></td>
+                                                allowfullscreen></iframe>
+                                        </td>
                                         <td>
                                             <p>Hello World</p>
                                         </td>
                                         <td>
-                                            <img
-                                                src="https://scontent.fceb6-1.fna.fbcdn.net/v/t39.30808-6/378273533_2017178391972278_8027278279841725938_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeEYACKXCZG5cViUpjmsIt40D0hcOd6rTLAPSFw53qtMsAOwpLZLJlewMisKKiDivAF4z5EIIX_Q89x6T7JSXBj9&_nc_ohc=gfj73aLKbiYAX8xchkZ&_nc_ht=scontent.fceb6-1.fna&oh=00_AfAazPTd4cwmyKiKwl0NaQ0llKImw6YDxmtsbz4Yt5sOjA&oe=657841AE"
-                                                width="200">
+
                                         </td>
                                         <td>
                                             <p>Princess</p>
@@ -239,11 +238,11 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                    HTML Tutorial #5: Audio & Video
+                                    data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                                    HTML Tutorial #10:Non-Semantic & Semantic Elements
                                 </button>
                             </h2>
-                            <div id="collapseFive" class="accordion-collapse collapse"
+                            <div id="collapseTen" class="accordion-collapse collapse"
                                 data-bs-parent="#accordionExample">
 
                                 <table class="table table-striped table-hover">
@@ -254,16 +253,16 @@
                                     </tr>
                                     <tr>
                                         <td><iframe width="560" height="315"
-                                                src="https://www.youtube.com/embed/C8HuXXlmQLc?si=DYvcPUn7gB_Xu-tV"
+                                                src="https://www.youtube.com/embed/gyhd_4Bu0sc?si=B2cAPNSY8wrFCJk0"
                                                 title="YouTube video player" frameborder="0"
                                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                                 allowfullscreen></iframe></td>
                                         <td>
                                             <p>No output</p>
-                                            
+
                                         </td>
                                         <td>
-                                            
+
                                             <p>No comment</p>
                                             <p>Princess</p>
                                         </td>
@@ -273,8 +272,82 @@
 
                             </div>
                         </div>
+
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                                HTML Tutorial #11:Other HTML Tags
+                            </button>
+                        </h2>
+                        <div id="collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+
+                            <table class="table table-striped table-hover">
+                                <tr>
+                                    <th>Video</th>
+                                    <th>Output</th>
+                                    <th>Comment</th>
+                                </tr>
+                                <tr>
+                                    <td><iframe width="560" height="315"
+                                            src="https://www.youtube.com/embed/Bvftn2VpyhU?si=J548_g3c3OZb6hQQ"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            allowfullscreen></iframe></td>
+                                    <td>
+                                        <p>No output</p>
+
+                                    </td>
+                                    <td>
+
+                                        <p>No comment</p>
+                                        <p>Princess</p>
+                                    </td>
+
+                                </tr>
+                            </table>
+
+                        </div>
                     </div>
+
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                            HTML Tutorial #12:Best Practices
+                        </button>
+                    </h2>
+                    <div id="collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+
+                        <table class="table table-striped table-hover">
+                            <tr>
+                                <th>Video</th>
+                                <th>Output</th>
+                                <th>Comment</th>
+                            </tr>
+                            <tr>
+                                <td><iframe width="560" height="315"
+                                        src="https://www.youtube.com/embed/ZD-ar9iOHaQ?si=jpY5ex7Iv4hZ4dod"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        allowfullscreen></iframe></td>
+                                <td>
+                                    <p>No output</p>
+
+                                </td>
+                                <td>
+
+                                    <p>No comment</p>
+                                    <p>Princess</p>
+                                </td>
+
+                            </tr>
+                        </table>
+
+                    </div>
+                </div>
+
+            </div>
         </body>
     </section>
 </body>
+
 </html>
