@@ -9,12 +9,15 @@
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <style>
-        table,tr,th,td{
-          border-width: 1px;
-          border-color: black;
-          border-style: solid;
+        table,
+        tr,
+        th,
+        td {
+            border-width: 1px;
+            border-color: black;
+            border-style: solid;
         }
-  </style>
+    </style>
 </head>
 
 <body style="height:2000px">
@@ -22,8 +25,9 @@
         <div class="container">
 
             <a href="#" class="navbar-brand mb-0 h1">
-                <img class="d-inline-block align-top" src="https://i.ytimg.com/vi/2N9zl5KzPfY/maxresdefault.jpg"
-                    width="50" height="50" />
+                <img class="d-inline-block align-top"
+                    src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="50"
+                    height="50" />
 
                 BOOSTRAP 5
             </a>
@@ -64,7 +68,7 @@
         </div>
     </nav>
     <br><br>
-    <h1>Tutorial 6-10</h1>
+    <h1>Tutorial 6-12</h1>
     <section>
 
         <body class="p-3 m-0 border-0 bd-example m-0 border-0">
@@ -98,7 +102,7 @@
                                     </ul>
                                 </td>
                                 <td>
-                                    <p>Princess</p>
+
                                     <p>Understanding and utilizing lists effectively can significantly improve the
                                         structure and readability of your HTML content.
                                     </p>
@@ -132,7 +136,7 @@
                                             allowfullscreen></iframe>
                                     </td>
                                     <td>
-                                            
+
                                         <table>
                                             <tr>
                                                 <th>Title 1</th>
@@ -143,12 +147,12 @@
                                                 <td>Content 2</td>
                                             </tr>
                                         </table>
-                                    </td>   
+                                    </td>
                                     <td>
-                                        <p>Princess</p>
+
                                         <p>essential to consider responsive design and accessibility principles when
                                             using them on a webpage. </p>
-                                        
+
                                     </td>
                                 </tr>
                             </table>
@@ -179,14 +183,67 @@
                                                 allowfullscreen></iframe>
                                         </td>
                                         <td>
-                                            <p>Understanding attributes and how to use them to link HTML files is
-                                                fundamental
-                                                for creating interconnected web pages and building a cohesive
-                                                website
-                                                structure.</p>
-                                            <p>Princess</p>
-                                        </td>
+                                            <form>
+                                                <input type="text" value="Value" /> <br>
+                                                <input type="text" readonly value="READONLY" /> <br>
+                                                <input type="text" required placeholder="required" /> <br>
+                                                <input type="email" placeholder="email" /><br>
+                                                <input type="password" placeholder="Password" /><br>
+                                                <input type="number" placeholder="Number" /><br>
+                                                <input type="tel" placeholder="Telephone" /><br>
+                                                <input type="search" placeholder="Search" /><br>
+                                                <input type="url" placeholder="URL" /><br>
+                                                <input type="date" min="2023/01/22" max="2023/12/30" /><br>
+                                                <input type="datetime-local" /><br>
+                                                <input type="month" /><br>
+                                                <input type="week" /><br>
+                                                <input type="time" /><br>
+                                                <input type="file" accept="image/png" /> <!--single file-->
+                                                <input type="file" accept="image/*" multiple /><br>
+                                                <input type="checkbox" id="apple" /><br>
+                                                <input type="apple">Apple</label><br>
+                                                <input type="radio" id="yes" name="answer" /><br>
 
+                                                <label for="apple">Apple</label><br>
+                                                <input type="radio" id="yes" name="answer" />
+                                                <label for="yes">YES</label><br>
+                                                <input type="radio" id="no" name="answer" />
+                                                <label for="no">NO</label><br>
+
+                                                <input type="range" min="0" max="100" value="75" /><br>
+                                                <input type="color" /><br>
+
+                                                <textarea cols="30"></textarea><br>
+                                                <select name="names">
+                                                    <optgroup label="firstname">
+                                                        <option value="Princess">Princess</option>
+                                                        <option value="Regie">Regie</option>
+                                                        <option value="Grace">Grace</option>
+                                                        <option value="Ryan">Ryan</option>
+                                                </select><br>
+                                                <select name="names">
+                                                    <optgroup label="firstname">
+                                                        <option value="Princess">Princess</option>
+                                                        <option value="Regie">Regie</option>
+                                                        <option value="Grace">Grace</option>
+                                                        <option value="Ryan">Ryan</option>
+                                                    <optgroup label="Lastname">
+                                                        <option value="Coma">Coma</option>
+                                                        <option value="Tinampay">Tinampay</option>
+                                                        <option value="Tinampay">Tinampay</option>
+                                                        <option value="Simbajon">Simbajon</option>
+                                                    </optgroup>
+                                                </select><br>
+                                                <input type="reset" /><br>
+                                                <input type="submit" /><br>
+                                            </form>
+                                        </td>
+                                        <td>
+                                            <p> forms are a fundamental part of web development, enabling interaction
+                                                and data collection, making websites interactive and dynamic.
+                                            </p>
+
+                                        </td>
                                     </tr>
                                 </table>
                             </div>
@@ -216,18 +273,34 @@
                                                 allowfullscreen></iframe>
                                         </td>
                                         <td>
-                                            <p>Hello World</p>
-                                        </td>
-                                        <td>
+                                            <table>
+                                                <tr>
+                                                    <th>Description</th>
+                                                    <th>Entity Name</th>
+                                                    <th>Entity Number</th>
+                                                    <th>Entity Hex</th>
+                                                </tr>
+                                                <tr>
+                                                    <td>Yen</td>
+                                                    <td>&yen;</td>
+                                                    <td>&#165;</td>
+                                                    <td>&#xa5;</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Smile w/ Horns</td>
+                                                    <td>&#128520;</td>
+                                                    <td>&#128520;</td>
+                                                    <td>&#128520;</td>
 
+                                                </tr>
+
+
+                                            </table>
                                         </td>
                                         <td>
-                                            <p>Princess</p>
-                                            <p> Understanding how to specify the correct image paths is crucial to
-                                                display
-                                                images properly on webpages while considering the file structure and
-                                                location of
-                                                your HTML file and associated image files.
+                                            <p> Using these special character representations is crucial in HTML to
+                                                avoid conflicts with the markup and to ensure that the content appears
+                                                as intended across different browsers and devices.
                                             </p>
                                         </td>
 
@@ -258,13 +331,68 @@
                                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                                 allowfullscreen></iframe></td>
                                         <td>
-                                            <p>No output</p>
+                                            <p>SEMANTIC</p>
+                                            <nav>
+                                                <a href="about.html">About</a>
+                                                <a href="home.html">Home</a>
+                                                <a href="contact.html">Contact</a>
+                                            </nav>
+                                            <header>
+                                                <h1>Quote about Yourself</h1>
+                                                <p>"Confidence is not the absence of doubt, but the courage to embrace
+                                                    and overcome it, forging strength from within the shadows of
+                                                    uncertainty."
+                                            </header>
+                                            <section>
+                                                <h2>Quote about Life</h2>
+                                                <p>"Life is not measured by the number of breaths we take, but by
+                                                    the moments that take our breath away." </p>
+                                            </section>
+                                            <section>
 
+                                                <h3>Quote about Nature</h3>
+                                                <p>"Look deep into nature, and then you will understand everything
+                                                    better.." </p>
+                                            </section>
+                                            <footer>
+                                                <p>&copy;Prinshiit</p>
+
+                                            </footer>
+                                            <p>NON-SEMANTIC</p>
+                                            <div id="nav">
+                                                <a href="about.html">About</a>
+                                                <a href="home.html">Home</a>
+                                                <a href="contact.html">Contact</a>
+                                            </div>
+                                            <div id="header">
+                                                <h1>Quote about Yourself</h1>
+                                                <p>"Confidence is not the absence of doubt, but the courage to embrace
+                                                    and overcome it, forging strength from within the shadows of
+                                                    uncertainty."
+                                                </p>
+                                            </div>
+                                            </br> </br>
+
+                                            <div id="section">
+                                                <h2>Quote about Life</h2>
+                                                <p>"Life is not measured by the number of breaths we take, but by
+                                                    the moments that take our breath away." </p>
+                                            </div>
+                                            <br /><br />
+                                            <div id="section">
+                                                <h3>Quote about Nature</h3>
+                                                <p>"Look deep into nature, and then you will understand everything
+                                                    better.." </p>
+                                            </div>
+                                            </br> </br>
+                                            <div id="footer">
+                                                <p>&copy;Prinshiit</p>
+
+                                            </div>
                                         </td>
                                         <td>
 
                                             <p>No comment</p>
-                                            <p>Princess</p>
                                         </td>
 
                                     </tr>
